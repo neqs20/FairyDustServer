@@ -1,1 +1,10 @@
-Export/
+main/export/
+
+.sconsign.dblite
+
+vc140.idb
+vc140.pdb
+
+src/.vscode
+
+src/*.obj
