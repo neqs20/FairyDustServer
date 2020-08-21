@@ -1,4 +1,4 @@
-[![Fairy Dust Sever logo](/fairy_dust_server_128x128.png)](https://discord.gg/7PVQxmr)
+[![Fairy Dust Sever logo](/assets/icons/fairy_dust_server/icon128x128.png)](https://discord.gg/7PVQxmr)
 ## FairyDust Server
 
 ### How to set it up ?
