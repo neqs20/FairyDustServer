@@ -1,0 +1,66 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "AbstractConfig",
+"language": "GDScript",
+"path": "res://scripts/abstract_config.gd"
+}, {
+"base": "Reference",
+"class": "Settings",
+"language": "GDScript",
+"path": "res://scripts/settings.gd"
+}, {
+"base": "Reference",
+"class": "ThreadQueue",
+"language": "GDScript",
+"path": "res://scripts/thread_queue.gd"
+} ]
+_global_script_class_icons={
+"AbstractConfig": "",
+"Settings": "",
+"ThreadQueue": ""
+}
+
+[application]
+
+config/name="fairy-dust-server"
+run/main_scene="res://scenes/world/world.tscn"
+config/icon="res://assets/icons/fairy_dust_server/icon.png"
+config/windows_native_icon="res://assets/icons/fairy_dust_server/icon.ico"
+
+[debug]
+
+settings/stdout/verbose_stdout=true
+
+[display]
+
+window/size/width=0
+window/size/height=0
+window/size/resizable=false
+window/vsync/use_vsync=false
+
+[input]
+
+asd={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"action_pressed_on_modifier":true,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":4,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[locale]
+
+test="en"
+
+[rendering]
+
+threads/thread_model=2
+environment/default_environment="res://default_env.tres"
